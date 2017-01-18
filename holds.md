@@ -9,6 +9,7 @@ Users need to have the student role of ONE UF to use this app.
 ## How to use
 
 Users could get access to the ONE UF holds app via browsers on any devices (mobile phones, tablets, laptops and desktops). 
+
 1. Open your browser
 2. Type https://one.uf.edu/ in the URL bar of your browser, and press "ENTER".
 3. Click "Log In" on the right top corner of the page.
