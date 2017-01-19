@@ -1,35 +1,31 @@
-# ONE-UF Degree Audit
+# ONF UF Holds API Interface
 
-This project is a single-page responsive app, as a part of ONE UF, "ONE-UF Degree Audit" displays the Degree Audit information to the users.
+This document records the API related to the ONE UF Holds application.
 
-## User roles
+## API Overview
 
-Users need to have the student role or advisor role of ONE UF to use this app.
+1. Student program API
+2. Load data API
+3. Excess hours API
+4. Footer API
+5. User API
+6. Dash API
 
-## How to use
+## API Details
 
-Users could get access to the ONE UF holds app via browsers on any devices (mobile phones, tablets, laptops and desktops). 
+1. Student program API
+/api/degreeaudit/studentprogram/
 
-1. Open your browser
-2. Type https://one.uf.edu/ in the URL bar of your browser, and press "ENTER".
-3. Click "Log In" on the right top corner of the page.
-4. Type in your user name and password to log in, user will be redirected to ONE UF home page.
-5. Click "Check Holds" in the "Holds" card on the page to view your holds information.
+2. Load data API
+/api/degreeaudit/audit/?program=program_name
 
-OR
+3. Excess hours API
+/api/degreeaudit/excesshours/
 
-1. Open your browser
-2. Type https://one.uf.edu/holds/ in the URL bar of your browser, and press "ENTER".
-3. Type in your user name and password to log in to view your holds information.
+4. Footer API
+/ext/common/features/footer/footer.json
+Footer API is a public API, which containes the data what we use to generate the footer.
 
-### Suitable browser versions
+5. User API is used to identify the users.
 
-Chrome
-Internet Explorer
-Edge
-FireFox
-Opera
-
-## Authors
-
-UF Enterprise System Development Team
+6. Dash API determines whether a section card is avaiable for the users based on the user role.
