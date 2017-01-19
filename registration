@@ -1,1 +1,35 @@
+# ONE-UF Registration
 
+This project is a single-page responsive app, as a part of ONE UF, "ONE-UF Registration" displays the course schedule information to the users and enables the users to register the courses they select.
+
+## User roles
+
+Users need to have the student role of ONE UF to use this app.
+
+## How to use
+
+Users could get access to the ONE UF Registration app via browsers on any devices (mobile phones, tablets, laptops and desktops). 
+
+1. Open your browser
+2. Type https://one.uf.edu/ in the URL bar of your browser, and press "ENTER".
+3. Click "Log In" on the right top corner of the page.
+4. Type in your user name and password to log in, user will be redirected to ONE UF home page.
+5. Click "Register / View Schedule" in the "Registration / My Schedule" card on the page to view your Registration information.
+
+OR
+
+1. Open your browser
+2. Type https://one.uf.edu/myschedule/ in the URL bar of your browser, and press "ENTER".
+3. Type in your user name and password to log in to view your Registration information.
+
+### Suitable browser versions
+
+Chrome
+Internet Explorer
+Edge
+FireFox
+Opera
+
+## Authors
+
+UF Enterprise System Development Team
