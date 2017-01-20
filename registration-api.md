@@ -4,12 +4,12 @@ This document records the API related to the ONE UF My Schedule application.
 
 ## API Overview
 
-1. All term API
-2. Specific term API
-3. Period time API
-4. Footer API
-5. User API
-6. Dash API
+1. All term API (/api/myschedule/terms/all)
+2. Specific term API (/api/myschedule/term_number)
+3. Period time API (/api/myschedule/periods/term)
+4. Footer API (/ext/common/features/footer/footer.json)
+5. User API (/api/uf/user)
+6. Dash API (/api/uf/dash)
 
 ## API Details
 
